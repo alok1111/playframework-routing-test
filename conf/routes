@@ -1,1 +1,3 @@
 GET     /index                      controllers.HomeController.index()
+
+->      /api      api.Routes
