@@ -4,7 +4,13 @@ import play.mvc.*;
 
 public class HomeController extends Controller {
 
-    public Result index() {
+    @Annotation
+    public Result indexAnnotation() {
+        return ok();
+    }
+
+    @With(AnnotationAction.class)
+    public Result indexWith() {
         return ok();
     }
 

@@ -1,1 +1,2 @@
-GET     /index                      controllers.HomeController.index()
+GET     /index-annotation           controllers.HomeController.indexAnnotation()
+GET     /index-with                 controllers.HomeController.indexWith()
